@@ -1,0 +1,17 @@
+.dui.button {
+    color: white;
+    background-color: var(--purple);
+    cursor: pointer;
+    padding: 2px 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+    user-select: none;
+    min-height: 38px;
+    min-width: 96px;
+}
+
+.dui.button:hover {
+    background-color: var(--hovered-purple);
+}
