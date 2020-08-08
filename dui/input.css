@@ -1,0 +1,21 @@
+.dui.input {
+    padding: 10px;
+    height: 30px;
+    font-size: 16px;
+    background: var(--input-dark-bg);
+    border: 1px solid var(--input-dark-border);
+    border-radius: 3px;
+    transition: border-color .2s ease-in-out;
+    color: var(--normal);
+    outline: none;
+}
+
+.dui.input:focus, .dui.input.light:focus {
+    border: 1px solid var(--purple);
+    outline: none;
+}
+
+.dui.input.light {
+    background: var(--input-light-bg);
+    border-color: var(--input-light-border);
+}

@@ -1,0 +1,15 @@
+@import url(input.css);
+
+:root {
+    --darkmode: #202225;
+    --lightmode: #ffffff;
+
+    --normal: #dcddde;
+    --purple: #7289da;
+    
+    --input-border: #0000004d;
+    --input-dark-bg: #303339;
+    --input-light-bg: #fcfcfc;
+    --input-dark-border: #222428;
+    --input-light-border: #4f545c4d;
+}

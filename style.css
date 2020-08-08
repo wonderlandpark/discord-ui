@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+body > .dark, body > .light {
+    min-height: 100%;
+    padding: 10px;
+}
+
+body > .dark {
+    background: #202225;
+    color: white;
+}
+
+body > .light {
+    background: #ffffff;
+}
+
+code {
+    padding: 4px;
+    background-color: gainsboro
+}
