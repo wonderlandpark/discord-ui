@@ -1,0 +1,21 @@
+input.dui[type=checkbox]::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+    top: 0;
+    margin: -4px 0;
+    border: 1px solid rgb(192,192,192);
+    background: var(--input-dark-bg);
+    border-radius: 3px;
+}
+
+input.dui[type=checkbox]:checked::after {
+    border: 3px solid #00ff00;
+    background: transparent;
+    -webkit-mask: url(../assets/check.svg) no-repeat center;
+    mask: url(../assets/check.svg) no-repeat center;
+    
+}

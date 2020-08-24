@@ -10,12 +10,13 @@
     outline: none;
 }
 
-.dui.input:focus, .dui.input.light:focus {
+.dui.input:focus {
     border: 1px solid var(--purple);
     outline: none;
 }
 
-.dui.input.light {
+.light .dui.input, .dui.input.light {
     background: var(--input-light-bg);
     border-color: var(--input-light-border);
+    color: var(--input-light-color)
 }

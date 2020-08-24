@@ -1,18 +1,25 @@
 @import url(input.css);
 @import url(button.css);
+@import url(checkbox.css);
 
 :root {
     --darkmode: #202225;
     --lightmode: #ffffff;
 
+    --white: #f6f6f7;
+    --light-gray: #747f8d;
+
     --normal: #dcddde;
     --purple: #7289da;
     --hovered-purple: #677bc4;
     --danger: #f04747;
+    --gray: #4f545c;
+    --gray-hover: #72767d;
     
     --input-border: #0000004d;
     --input-dark-bg: #303339;
     --input-light-bg: #fcfcfc;
     --input-dark-border: #222428;
     --input-light-border: #4f545c4d;
+    --input-light-color: #2e3338;
 }
