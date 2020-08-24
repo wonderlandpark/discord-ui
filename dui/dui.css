@@ -2,6 +2,15 @@
 @import url(button.css);
 @import url(checkbox.css);
 
+@font-face {
+    font-family: Whitney;
+    src: url(./assets/font/whitneybook.otf);
+}
+
+body .dui {
+    font-family: Whitney;
+}
+
 :root {
     --darkmode: #202225;
     --lightmode: #ffffff;
