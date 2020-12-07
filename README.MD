@@ -22,4 +22,4 @@ Check out [Wiki](https://github.com/wonderlandpark/discord-ui/wiki)
 
 ## Demo
 
-[Here](https://discord-ui.wonder.im)
+[Here](https://wonderlandpark.github.io/discord-ui/)
